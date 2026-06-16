@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Plus, DollarSign } from "lucide-react";
 
-export default function InvoiceForm({ clients, setInvoices }) {
+function InvoiceForm({ clients, setInvoices }) {
 	const [formData, setFormData] = useState({
 		clientId: "",
 		description: "",
@@ -111,3 +111,5 @@ export default function InvoiceForm({ clients, setInvoices }) {
 		</form>
 	);
 }
+
+export default InvoiceForm;

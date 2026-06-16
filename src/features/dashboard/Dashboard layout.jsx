@@ -2,8 +2,8 @@ import { useState } from "react"
 import Navbar from "../../components/Navbar"
 import SummaryCards from "./SummaryCards"
 import ClientForm from "../clients/Client Form.jsx"
-import ClientList from "../clients/Client List.jsx"
-import InvoiceForm from '../Invoices/Invoice Form.jsx'
+import ClientList from "../clients/Client List.jsx";
+import InvoiceForm from "../invoices/invoice form.jsx";
 import InvoiceList from "../invoices/invoice list"
 import { initialClients, initialInvoices } from "../../data/mockdb"
 
